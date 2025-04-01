@@ -1,0 +1,79 @@
+.post {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin: 15px auto;
+    width: 30rem; /* Set width to 50rem */
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+  }
+  
+  .post:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .postTitle {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    background-color: #4CAF50;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+  }
+  
+  .postText {
+    font-size: 16px;
+    color: #555;
+    margin: 10px 0;
+    cursor: pointer;
+    line-height: 1.6;
+  }
+  
+  .postText:hover {
+    color: #4CAF50;
+    text-decoration: underline;
+  }
+  
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #b4b7b4c0;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+  
+  .username {
+    font-size: 14px;
+    color: #fff;
+  }
+  
+  .likes {
+    font-size: 14px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+  }
+  
+  .likes span {
+    margin-left: 5px;
+  }
+  
+  .likeIcon {
+    cursor: pointer;
+    margin-right: 10px;
+    transition: color 0.3s ease;
+  }
+  
+  .liked {
+    color:rgb(107, 42, 42);
+  }
+  
+  .notLiked {
+    color: #847c7c;
+  }
+  
