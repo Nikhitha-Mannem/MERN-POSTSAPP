@@ -67,7 +67,7 @@ A full-stack post management application built using the **MERN (MongoDB, Expres
 ## 📥 Installation
 Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/mern-posts-app.git
+   git clone https://github.com/nikhitha-mannem/mern-postsapp.git
 cd mern-posts-app
 npm install
 cd client
